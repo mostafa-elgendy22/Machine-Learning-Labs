@@ -1,0 +1,9 @@
+To create a numpy array of length n and initialize it with value v:
+array = np.full(n, v)
+-----------------------------------------------------------------------------------
+To fit sklearn.tree.DecisionTreeClassifier on data
+
+clf.fit(X, Y, sample_weight)  // clf:DecisionTreeClassifier(). X:The training input samples.  Y:Class labels. sample_weight:array-like of shape (n_samples,)
+
+To predict classes for data using  sklearn.tree.DecisionTreeClassifier
+Classes = clf.predict(X)  // X:The input samples. Classes:The predicted classes
